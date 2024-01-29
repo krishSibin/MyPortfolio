@@ -1,0 +1,175 @@
+.container{
+    height: calc(100vh - 100px);
+    width: 100%;
+    will-change: contents;
+    position: relative;
+    top: 5%;
+    margin: 0 auto;
+ 
+    display: inline-block;
+   
+        overflow-x: hidden;
+        overflow-y: hidden;
+      
+      
+
+
+}
+
+
+
+
+.homepage{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+
+    .text-area{
+        
+        position: relative;
+        left: 13%;
+        top: 5%;
+        
+   
+        max-height: 90%;
+        width: 45%;
+        
+     
+          
+         animation: fadeIn 1s ease-in-out;
+
+         .hi{
+        
+            position: absolute;
+            left: 15px;
+            top: 20px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 80px;
+            //color: blue;
+
+            .hLett{
+              
+              left: 15px;
+              top: 20px;
+              font-size: 120px;
+              color:red;
+              font-family: 'Courier New', Courier, monospace;
+              
+              
+
+            }
+
+            
+         }
+         .iam{
+            position: relative;
+            top: 90px;
+            left: 20px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+            
+            font-size: 60px;
+
+         }
+
+         .last{
+          position: absolute;
+          left: 180px;
+          
+         }
+
+      
+
+
+        
+
+    }
+
+    .job{
+      position: absolute;
+      top: 272px;
+      left: 265px;
+      font-size: 20px;
+     
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .slidingtext{
+        position: absolute;
+        font-size: 50vh;
+        bottom: 10px;
+        white-space: nowrap;
+        color: white;
+        opacity: 0.04;
+        width: 50%;
+        font-weight: bold;
+        
+
+    }
+
+
+    .img-area {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Align elements vertically */
+        justify-content: center; /* Center elements horizontally */
+      }
+      
+      .img-area .svgLogo {
+        position: absolute; /* Position absolutely within the container */
+        width: 30%; /* Ensure it takes up the full width */
+        height: 70%; /* Ensure it takes up the full height */
+        /* Other styles for .svgLogo */
+        stroke: white;
+        z-index: 1; /* Set z-index for .svgLogo */
+        top: -20px;
+        right: 250px;
+       // background-color: wheat;
+      }
+      
+      .img-area .imgLogo {
+        position: relative;
+        top: -148px;
+        right: -76px;
+       
+        width: 500px;
+        height: 500px;
+        border-radius: 50%;
+        background-size: cover;
+        animation: animate1 2s infinite ease alternate;
+        animation-delay: 2s;
+        z-index: 2; /* Set z-index for .imgLogo */
+      }
+      
+      @keyframes animate1 {
+        to {
+          transform: translateY(25px);
+        }
+      }
+      
+      
+
+
+
+
+  
+
+    h1{
+        color: white;
+        font-size: 53px;
+        margin: 0;
+        font-weight: 400;
+        font-family: 'Coolvetica';
+    
+    
+    }
+
+    h3{
+        color: grey;
+        
+      
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out;
+        animation-delay: 1.5s;
+        animation-fill-mode: forwards;
+    }
+}

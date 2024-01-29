@@ -1,0 +1,96 @@
+
+
+
+.test{
+    display: inline-block;
+    position: relative;
+   // font-size: 80px;
+    font-weight: 700;
+    top: 76px;
+    left: 0px;
+   // font-family:'Caveat';
+   // letter-spacing: 2mm;
+    color: whitesmoke;
+    opacity: 0.5;
+    transform: 0.5s;
+
+}
+
+.test:hover{
+    opacity: 1;
+    text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+    // 0 0 80px #fff,
+    // 0 0 120px #fff,
+    // 0 0 160px #fff;
+}
+
+
+
+
+
+// .homepage{
+//     display: flex;
+//     flex-direction: row;
+//     gap: 200px;
+
+ 
+
+//     .img-area{
+//         flex: 1;
+//         position: relative;
+
+//     .svgLogo{
+     
+//         //flex: 1;
+//        // background-color: white;
+//         max-height: 90%;
+//         width: 50%;
+
+//         stroke: white;
+//        // background-color: brown;
+        
+       
+//     }
+
+//     .imgLogo{
+//         position: absolute;
+//         margin: auto;
+//        // background-color: aqua;
+//         transform: translateY(-600px);
+//         padding: 48px;
+        
+//     }
+// }
+
+
+// span{
+//     display: inline-block;
+// }
+
+  
+
+//     h1{
+//         color: white;
+//         font-size: 53px;
+//         margin: 0;
+//         font-weight: 400;
+//         font-family: 'Coolvetica';
+      
+    
+    
+//     }
+
+//     h3{
+//         color: grey;
+        
+      
+//         opacity: 0;
+//         animation: fadeIn 1s ease-in-out;
+//         animation-delay: 1.5s;
+//         animation-fill-mode: forwards;
+//     }
+// }
+
+

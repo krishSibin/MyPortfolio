@@ -1,0 +1,103 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    z-index: 2;
+    
+    
+   
+
+    .bg{
+      position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 150px;
+       // background:inherit;
+     // background-color: white;
+      // opacity: 0.1;
+      
+        z-index: 2;
+        
+     
+        
+        
+          .links{
+            position: absolute;
+            width: 110%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            z-index: 2;
+             
+            
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+           
+            
+            a{
+              font-size: 30px;
+              color: black;
+              z-index: 2;
+
+              .linksRow{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                z-index: 2;
+                
+
+                .icon{
+                  margin-right: 20px;
+                  z-index: 2;
+                 
+             
+                }
+                
+
+              }
+
+            //   .linksRow:hover {
+            //  //   background-color: white; /* Change background color on hover */
+            //   }
+              
+              .linksRow:hover .icons {
+                color: rgb(246, 242, 242); 
+                //opacity: 0.5;
+                text-shadow: 0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #fff,
+              }
+              
+             
+              
+
+            }
+
+          }
+          
+    }
+
+    button{
+      width: 50px;
+      height: 50px;
+      position: fixed;
+      border-radius: 50%;
+      background-color: white;
+      border: none;
+       top: 25px;
+       left: 25px;
+       cursor: pointer;
+       bottom: 0;
+       background-color: transparent;
+       z-index: 2;
+  }
+   
+
+
+}
