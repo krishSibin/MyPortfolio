@@ -23,27 +23,29 @@ const items = [
         desc:"This user-friendly application is designed to effortlessly handle your expenses, track income, and provide insightful spending analysis . Stay in control of your finances, understand where your money goes , and make informed decisions for a prosperous future . Simplify your money management journey with this intuitive and essential app",
         link:'https://github.com/krishSibin/Money-Management-App.git'
       },
-    {
+      {
         id: 3,
+        title: "My Portfolio",
+        img: app4,
+        desc: "This is a complete portfolio website created using React and SCSS",
+        link:'https://github.com/krishSibin/MyPortfolio.git',
+      },
+      {
+        id: 4,
+        title: "Blog Website",
+        img: app5,
+        desc: "This peoject is an innovative blog platform meticulously crafted with React, Express, and MongoDB, delivering a sophisticated and responsive blogging experience. Seamlessly blending the power of React for frontend development, Express for backend operations, and MongoDB for efficient database management, MyBlog offers a dynamic and user-friendly environment",
+        link:'https://github.com/krishSibin/MyBlog_website.git'
+    },
+    {
+        id: 5,
         title: "Netflix Clone App",
         img: app3,
         desc: "This project is a Flutter clone of the Netflix Android application, developed using Flutter and Bloc for state management, with API integration done using the Dio package. It follows a Domain Driven Development (DDD) structure."
        , link:'https://github.com/krishSibin/NETFLIX-Project.git'
       },
-    {
-        id: 4,
-        title: "My Portfolio",
-        img: app4,
-        desc: "This is simply a portfolio website created using React, SCSS",
-        link:'https://github.com/krishSibin/MyPortfolio.git',
-      },
-    {
-      id: 5,
-      title: "Blog Website",
-      img: app5,
-      desc: "This is simply a portfolio website created using React, SCSS",
-      link:'https://github.com/krishSibin/MyBlog_website.git'
-  },
+   
+    
 ];
 
 
