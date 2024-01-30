@@ -34,7 +34,7 @@ const items = [
         id: 4,
         title: "Blog Website",
         img: app5,
-        desc: "This peoject is an innovative blog platform meticulously crafted with React, Express, and MongoDB, delivering a sophisticated and responsive blogging experience. Seamlessly blending the power of React for frontend development, Express for backend operations, and MongoDB for efficient database management, MyBlog offers a dynamic and user-friendly environment",
+        desc: "This project is an innovative blog platform meticulously crafted with React, Express, and MongoDB, delivering a sophisticated and responsive blogging experience. Seamlessly blending the power of React for frontend development, Express for backend operations, and MongoDB for efficient database management, MyBlog offers a dynamic and user-friendly environment",
         link:'https://github.com/krishSibin/MyBlog_website.git'
     },
     {
@@ -63,10 +63,10 @@ const Single = ({ item }) => {
     <section ref={ref}>
       <div className="container">
         <div className="wrapper">
-          <div className="imageContainer" style={{ y: imageContainerY }}>
+          <motion.div className="imageContainer" style={{ y: imageContainerY }}>
             <img src={item.img} alt="" />
            
-          </div>
+          </motion.div>
           <motion.div className="textContainer" style={{ y: textContainerY }}>
             <h2>{item.title}</h2>
             <p>{item.desc}</p>
