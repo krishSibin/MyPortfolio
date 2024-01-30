@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 
-import {color, motion, useAnimationControls} from 'framer-motion'
+import { motion, useAnimationControls} from 'framer-motion'
 
 function Anim({children,font,spacing,size}) {
     const controls=useAnimationControls();
